@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <link href="/main.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="meta_data">
+    Race: <span id="race-name">Abu Dhabi Grand Prix</span><br/>
+    Date: <span id="race-date">01.12.2019</span><br/>
+    Circuit: <span id="race-circuit">Yas Marina Circuit</span><br/>
+    Lap: <span id="lap"></span>
+</div>
+<div class="tables">
+    <table>
+        <thead>
+        <tr>
+            <th>Position</th>
+        </tr>
+        </thead>
+        <tbody id="fix">
+        <tr>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>20</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+        <tr>
+            <th class="__name">Name</th>
+            <th class="__last">Last Lap Time</th>
+            <th class="__over">Over all Time</th>
+            <th class="__lap">Lap</th>
+        </tr>
+        </thead>
+        <tbody id="table">
+        </tbody>
+    </table>
+</div>
+
+<script src="anime.min.js"></script>
+<script src="/main.js"></script>
+</body>
+
+</html>
